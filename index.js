@@ -9,7 +9,7 @@ const vegetables = document.getElementById('vegetables');
 const h1Element = document.querySelector('h1'); 
 const pElement = document.querySelector('p');
 const image = document.getElementById('frutIMage')
-const heading = document.getElementsByTagName = ('header')
+const heading = document.querySelector('header')
 
 pElement.style.textAlign = 'centre'
 selling.style.textAlign = 'centre'
@@ -22,6 +22,11 @@ headings.forEach(element => {
 })
 
 const newListItem = document.createElement('li');
+
+heading.style.padding = "0.1%"
+heading.style.marginTop = '-1%'
+heading.style.width = '99.5vw'
+heading.style.backgroundColor = '#F0BD6E'
 
 
 newListItem.textContent = 'apple'
